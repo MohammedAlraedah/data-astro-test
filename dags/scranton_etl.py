@@ -53,7 +53,7 @@ def extract_transform_load():
 
 # Define the DAG
 with DAG(
-    "etl_dag",
+    "scranton_etl",
     start_date=datetime(2025, 1, 1),
     schedule_interval="@daily",  # Runs daily
     catchup=False,
